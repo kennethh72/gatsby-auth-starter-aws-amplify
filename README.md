@@ -12,7 +12,7 @@ This auth starter implements a basic authentication flow for signing up signing 
 
 Click the button to deploy a fullstack app in your AWS account:
 
-[![amplifybutton](https://oneclick.amplifyapp.com/button.svg)](https://console.aws.amazon.com/amplify/home#/deploy?repo=https://github.com/username/repository)
+[![amplifybutton](https://oneclick.amplifyapp.com/button.svg)](https://console.aws.amazon.com/amplify/home#/deploy?repo=https://github.com/dabit3/gatsby-auth-starter-aws-amplify)
 
 You can now continuously deploy changes to your frontend or backend and Amplify Console will automatically deploy those changes.
 
@@ -42,10 +42,10 @@ yarn
 npm install
 ```
 
-4. Install & configure the AWS Amplify CLI. Note: we're going to be using the multi environment CLI version as it is the newest version.
+4. Install & configure the AWS Amplify CLI.
 
 ```sh
-npm install -g @aws-amplify/cli@multienv
+npm install -g @aws-amplify/cli
 
 amplify configure
 ```
